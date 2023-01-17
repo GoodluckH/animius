@@ -120,7 +120,8 @@ class Commands:
                                        'Name or directory of combined chatbot model to use'],
                                 '-e': ['embedding', 'str', 'Name of word embedding to use'],
                                 '-d': ['description', 'str', 'Description of waifu (Optional)'],
-                                '-i': ['image', 'str', 'Image of waifu. (path or base64 string) (Optional)']
+                                '-i': ['image', 'str', 'Image of waifu. (path or base64 string) (Optional)'],
+                                '-b': ['birthday', 'str', 'The birthday of the waifu']
                             },
                             'Create a waifu.',
                             'createWaifu -n \'waifu name\' -c \'name of model\' -e \'name of embedding\''
